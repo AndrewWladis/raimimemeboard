@@ -1,6 +1,28 @@
-nav {
-    background-color: rgb(151, 42, 42);
-    outline: 1px solid black;
-    width: 100%;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+html {
+    background-color: rgb(10, 25, 70);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text-1 {
+    color: rgb(209, 211, 106);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
