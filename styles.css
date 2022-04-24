@@ -4,10 +4,18 @@ html {
     background-color: rgb(10, 25, 70);
 }
 
+img {
+    max-width: 125px;
+    min-width: 125px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
 .card {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 1%;
 }
 
 .card-text-1 {
@@ -18,6 +26,7 @@ html {
 .container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .title {
