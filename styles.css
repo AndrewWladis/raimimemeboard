@@ -1,26 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 
 html {
-    background-color: rgb(10, 25, 70);
+    background-color: rgb(15, 15, 15);
 }
 
 img {
     max-width: 125px;
     min-width: 125px;
-    max-height: 100px;
-    min-height: 100px;
+    max-height: 125px;
+    min-height: 125px;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 1px solid black;
+    filter: brightness(60%);
+    margin: 5%;
 }
 
 .card {
+    max-width: 190px;
+    min-width: 190px;
+    max-height: 190px;
+    min-height: 190px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 1%;
+    background-color: rgb(151, 9, 9);
+    border-radius: 5%;
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .card-text-1 {
-    color: rgb(209, 211, 106);
+    margin: 0;
+    padding: 0;
+    color: rgb(211, 211, 211);
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
 }
 
 .container {
